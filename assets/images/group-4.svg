@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="441" height="316" viewBox="0 0 441 316">
+    <g fill="none" fill-rule="evenodd" transform="translate(-33 -32)">
+        <circle cx="337.5" cy="494.5" r="337.5" fill="#F8E0EC"/>
+        <g fill="#000" transform="translate(292 105)">
+            <circle cx="4" cy="4" r="4"/>
+            <circle cx="28" cy="4" r="4"/>
+            <circle cx="52" cy="4" r="4"/>
+            <circle cx="76" cy="4" r="4"/>
+            <circle cx="100" cy="4" r="4"/>
+            <circle cx="124" cy="4" r="4"/>
+            <circle cx="4" cy="28" r="4"/>
+            <circle cx="28" cy="28" r="4"/>
+            <circle cx="52" cy="28" r="4"/>
+            <circle cx="76" cy="28" r="4"/>
+            <circle cx="100" cy="28" r="4"/>
+            <circle cx="124" cy="28" r="4"/>
+            <circle cx="4" cy="52" r="4"/>
+            <circle cx="28" cy="52" r="4"/>
+            <circle cx="52" cy="52" r="4"/>
+            <circle cx="76" cy="52" r="4"/>
+            <circle cx="100" cy="52" r="4"/>
+            <circle cx="124" cy="52" r="4"/>
+            <circle cx="4" cy="76" r="4"/>
+            <circle cx="28" cy="76" r="4"/>
+            <circle cx="52" cy="76" r="4"/>
+            <circle cx="76" cy="76" r="4"/>
+            <circle cx="100" cy="76" r="4"/>
+            <circle cx="124" cy="76" r="4"/>
+            <circle cx="4" cy="100" r="4"/>
+            <circle cx="28" cy="100" r="4"/>
+            <circle cx="52" cy="100" r="4"/>
+            <circle cx="76" cy="100" r="4"/>
+            <circle cx="100" cy="100" r="4"/>
+            <circle cx="124" cy="100" r="4"/>
+        </g>
+        <circle cx="576" cy="178" r="178" fill="#46A7CD"/>
+    </g>
+</svg>
