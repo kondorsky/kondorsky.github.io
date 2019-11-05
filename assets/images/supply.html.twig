@@ -1,0 +1,215 @@
+{% extends 'AppBundle:Page:base.html.twig' %}
+
+{% block title %}Target Circle: Online & Mobile Performance Marketing Software{% endblock %}
+
+{% block content %}
+    <!-- products -->
+    <section id="products" ng-controller="ContactCtrl">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="text-left">
+                        <h1>Your direct access to private</br>
+                            labels of leading advertisers.</h1>
+                        <h5>Connect directly to all offers with a single sign-in and avoid losing any margin to rebrokering.</h5>
+                        <div>
+                            <a href="{{ manager.url.register }}" class="btn contact">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 ad-networks">
+                    <img src="/images/marketplace.png" class="image-responsive" alt="Ad networks" width="633">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid logos">
+            <div class="row">
+                <div class="col-centered col-md-2 col-xs-4">
+                    <img src="/images/logo-outfit7.png" class="image-responsive center-block" alt="outfit7">
+                </div>
+                <div class="col-centered col-md-2 col-xs-4">
+                    <img src="/images/logo-jamcity.png" class="image-responsive center-block" alt="jamcity" >
+                </div>
+                <div class="col-centered col-md-2 col-xs-4">
+                    <img src="/images/logo-pokerstars.png" class="image-responsive center-block" alt="pokerstars">
+                </div>
+                <div class="col-centered col-md-2 col-xs-4">
+                    <img src="/images/logo-plarium.png" class="image-responsive center-block" alt="plarium">
+                </div>
+                <div class="col-centered col-md-2 col-xs-4">
+                    <img src="/images/logo-trivago.png" class="image-responsive center-block" alt="trivago">
+                </div>
+                <div class="col-centered col-md-2 col-xs-4">
+                    <img src="/images/logo-gsn.png" class="image-responsive center-block" alt="gsn">
+                </div>
+            </div>
+        </div>
+        <demo-modal ng-show="getDemo" toggler="getDemo" model="user" send="sendForm()"></demo-modal>
+    </section>
+    <section class="learn-more">
+        <div class="container" style="border: 0;">
+            <div class="row flex-centered">
+                <div class="col-sm-6 col-xs-12">
+                    <img src="/images/direct-offers.png" class="image-responsive" alt="agreement" width="630">
+                </div>
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <h1>The first place to look for <b>direct offers</b></h1>
+                    <p class="text-left">
+                        Set up your ad inventory profiles and define your offer preferences to receive only relevant offers for your audience.
+                        </br>
+                        </br>
+                        Manage all offers that match your preferences and view all offer details
+                        (e.g. issuer, pricing, KPIs, restrictions) in one consolidated marketplace.
+                        </br>
+                        </br>
+                    <div class="green-paragraph"><img src="/images/ic-api.svg">
+                        <span>Automate offer selection with our API</span>
+                    </div>
+                    </p>
+                </div>
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="learn-more grey-bg">
+        <div class="container" style="border: 0;">
+            <div class="row flex-centered">
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+                <div class="col-sm-4 col-xs-12 col-reverse-top">
+                    <h1><b>Granular postbacks</b> align your data with&nbsp;ours</h1>
+                    <p class="text-left">
+                        Customise your postback trigger settings per event type.
+                        </br>
+                        </br>
+                        Choose from an extensive list of available parameters to postback any information you require.
+                    </p>
+                </div>
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+                <div class="col-sm-6 col-xs-12 col-reverse-bottom">
+                    <img src="/images/postbacks.png" class="image-responsive" alt="offer-management" width="448">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="learn-more" ng-controller="CountCtrl as ctrl">
+        <div class="container" style="border: 0; padding-bottom: 0;">
+            <div class="row flex-centered">
+                <div class="col-sm-6 col-xs-12">
+                    <img src="/images/tracking-links.png" class="image-responsive" alt="open-marketplace" width="572">
+                </div>
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+                <div class="col-sm-4 col-xs-12 margin-bottom">
+                    <h1><b>One click</b> to get your tracking link, few to customise it</h1>
+                    <p class="text-left">
+                        Choose between multiple ad types such as text links, banners, videos and product feeds.
+                        </br>
+                        </br>
+                        Get creatives in all formats, dimensions and file sizes.
+                        </br>
+                        </br>
+                        Choose between multiple export formats and use extensive export functionality for product feeds.
+                        </br>
+                        </br>
+                    <div class="green-paragraph"><img src="/images/ic-api.svg">
+                        <span>Automate tracking link creation with our API</span>
+                    </div>
+                    </p>
+                </div>
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="learn-more grey-bg">
+        <div class="container" style="border: 0; padding-bottom: 0">
+            <div class="row flex-centered">
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+                <div class="col-sm-4 col-xs-12 col-reverse-top margin-bottom">
+                    <h1><b>Real-time insights</b> to maximise your results</h1>
+                    <p class="text-left">
+                        Add and remove dimensions and metrics to customise your reports.
+                        Save your most used configuration and plot metrics to visualise and compare their development over time.
+                        </br>
+                        </br>
+                        Use our reference parameters to add your own custom dimensions to the reports.
+                        </br>
+                        </br>
+                        Drill down to check all attributes of a single impression, click and transaction for maximum transparency.
+
+                        </br>
+                        </br>
+                    <div class="green-paragraph"><img src="/images/ic-api.svg">
+                        <span>Access all your report data with our API</span>
+                    </div>
+                    </p>
+                </div>
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+                <div class="col-sm-6 col-xs-12 col-reverse-bottom">
+                    <img src="/images/realtime-insights.png" class="image-responsive" alt="realtime-insights" width="630">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="learn-more">
+        <div class="container" style="border: 0;">
+            <div class="row flex-centered">
+                <div class="col-sm-6 col-xs-12">
+                    <img src="/images/fraud-prevention.png" class="image-responsive" alt="fraud-prevention" width="520">
+                </div>
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <h1><b>Full transparency</b> allows for real-time optimisation</h1>
+                    <p class="text-left">
+                        Monitor the status of every transaction in your interface, from tracking, to validation, to invoicing, to your payouts.
+                        </br>
+                        </br>
+                        View the main reason for declining on transaction level.
+                        </br>
+                        </br>
+
+                        <div class="green-paragraph"><img src="/images/ic-api.svg">
+                        <span>Get your real-time transaction status with our API</span></div>
+                    </p>
+                </div>
+                <div class="col-sm-1 col-centered hidden-xs">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="learn-more get-started blue-background" ng-controller="ContactCtrl">
+        <div class="container text-center" style="border: 0;">
+            <div class="row flex-centered">
+                <div class="col-sm-1 hidden-xs">
+                </div>
+                <div class="col-sm-5 col-xs-12">
+                    <h2>Ready to <b>get started</b>?</h2>
+                    <h3>Get in touch or start monetising.</h3>
+                </div>
+                <div class="col-sm-5 col-xs-12">
+                    <div>
+                        <a href="{{ manager.url.register }}" class="btn contact">Sign up</a>
+                    </div>
+                    <div>
+                        <a href="{{ path('tc_website_contact') }}" class="btn signup">Get in touch</a>
+                    </div>
+                </div>
+                <div class="col-sm-1 hidden-xs">
+                </div>
+            </div>
+        </div>
+        <demo-modal ng-show="getDemo" toggler="getDemo" model="user" send="sendForm()"></demo-modal>
+    </section>
+
+    {% include 'AppBundle:Page:footer.html.twig' %}
+
+
+{% endblock %}
