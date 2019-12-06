@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="468px" height="363px" viewBox="0 0 468 363" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Dashboards</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="420" height="315" rx="8"></rect>
+        <rect id="path-3" x="0" y="0" width="420" height="315" rx="8"></rect>
+        <rect id="path-5" x="0" y="0" width="420" height="315" rx="8"></rect>
+        <rect id="path-7" x="0" y="0" width="420" height="315" rx="8"></rect>
+        <rect id="path-9" x="0" y="0" width="420" height="315" rx="8"></rect>
+        <rect id="path-11" x="0" y="0" width="310" height="32"></rect>
+        <filter x="-2.3%" y="-15.6%" width="104.5%" height="143.8%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-13" x="0" y="0" width="420" height="315" rx="8"></rect>
+          <style>
+            @import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption');
+            </style>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Circlewise-Advertiser" transform="translate(-213.000000, -1127.000000)">
+            <g id="Branding" transform="translate(165.000000, 1077.000000)">
+                <g id="Dashboards">
+                    <g transform="translate(48.000000, 50.000000)">
+                        <g id="Dashboard-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <rect id="Rectangle" fill="#F8E0EC" mask="url(#mask-2)" x="0" y="0" width="110" height="315"></rect>
+                            <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-2)" x="0" y="0" width="110" height="32"></rect>
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <rect stroke="#000000" stroke-width="2" x="1" y="1" width="418" height="313" rx="8"></rect>
+                        </g>
+                        <g id="Dashboard-2" transform="translate(24.000000, 24.000000)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#FFFFFF" xlink:href="#path-5"></use>
+                            <rect id="Rectangle" fill="#FFB900" mask="url(#mask-6)" x="0" y="0" width="110" height="315"></rect>
+                            <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" mask="url(#mask-6)" x="0" y="0" width="110" height="32"></rect>
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <rect stroke="#000000" stroke-width="2" x="1" y="1" width="418" height="313" rx="8"></rect>
+                        </g>
+                        <g id="Dashboard" transform="translate(48.000000, 48.000000)">
+                            <mask id="mask-10" fill="white">
+                                <use xlink:href="#path-9"></use>
+                            </mask>
+                            <use id="Rectangle" fill="#F0F4F6" xlink:href="#path-9"></use>
+                            <g id="Sidebar" mask="url(#mask-10)">
+                                <g transform="translate(0.000000, 2.000000)">
+                                    <rect id="Rectangle" fill="#46A7CD" fill-rule="evenodd" x="0" y="0" width="110" height="315"></rect>
+                                    <g id="Group-5" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, 46.000000)">
+                                        <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" x="0" y="0" width="110" height="24"></rect>
+                                        <text id="Dashboard" font-family="PTSans-CaptionBold, PT Sans Caption" font-size="12" font-weight="bold" fill="#D02E7D">
+                                            <tspan x="16" y="16">Dashboard</tspan>
+                                        </text>
+                                        <text id="Reports" font-family="PTSans-Caption, PT Sans Caption" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                            <tspan x="16" y="40">Reports</tspan>
+                                        </text>
+                                        <text id="Marketplace" font-family="PTSans-Caption, PT Sans Caption" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                            <tspan x="16" y="64">Marketplace</tspan>
+                                        </text>
+                                        <text id="Finance" font-family="PTSans-Caption, PT Sans Caption" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                            <tspan x="16" y="88">Finance</tspan>
+                                        </text>
+                                        <text id="Settings" font-family="PTSans-Caption, PT Sans Caption" font-size="12" font-weight="normal" fill="#FFFFFF">
+                                            <tspan x="16" y="112">Settings</tspan>
+                                        </text>
+                                    </g>
+                                    <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="110" height="32"></rect>
+                                    <text id="yourlogo" fill="none" font-family="Exo2-Light, Exo 2" font-size="14" font-weight="300">
+                                        <tspan x="25.474" y="20" fill="#D02E7D">your</tspan>
+                                        <tspan x="54.048" y="20" font-family="Exo2-Black, Exo 2" font-weight="700" fill="#FFFFFF">logo</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <g id="Bar-chart" mask="url(#mask-10)">
+                                <g transform="translate(126.000000, 212.000000)">
+                                    <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="133" height="146.226415" rx="3"></rect>
+                                    <path d="M32.6031746,81.1320755 L39.5873016,81.1320755 C41.7964406,81.1320755 43.5873016,82.9229365 43.5873016,85.1320755 L43.5873016,138.45283 C43.5873016,140.661969 41.7964406,142.45283 39.5873016,142.45283 L32.6031746,142.45283 C30.3940356,142.45283 28.6031746,140.661969 28.6031746,138.45283 L28.6031746,85.1320755 C28.6031746,82.9229365 30.3940356,81.1320755 32.6031746,81.1320755 Z M12,58.490566 L18.984127,58.490566 C21.193266,58.490566 22.984127,60.281427 22.984127,62.490566 L22.984127,115.811321 C22.984127,118.02046 21.193266,119.811321 18.984127,119.811321 L12,119.811321 C9.790861,119.811321 8,118.02046 8,115.811321 L8,62.490566 C8,60.281427 9.790861,58.490566 12,58.490566 Z M53.2063492,78.3018868 L60.1904762,78.3018868 C62.3996152,78.3018868 64.1904762,80.0927478 64.1904762,82.3018868 L64.1904762,135.622642 C64.1904762,137.831781 62.3996152,139.622642 60.1904762,139.622642 L53.2063492,139.622642 C50.9972102,139.622642 49.2063492,137.831781 49.2063492,135.622642 L49.2063492,82.3018868 C49.2063492,80.0927478 50.9972102,78.3018868 53.2063492,78.3018868 Z M73.8095238,50.9433962 L80.7936508,50.9433962 C83.0027898,50.9433962 84.7936508,52.7342572 84.7936508,54.9433962 L84.7936508,121.471698 C84.7936508,123.680837 83.0027898,125.471698 80.7936508,125.471698 L73.8095238,125.471698 C71.6003848,125.471698 69.8095238,123.680837 69.8095238,121.471698 L69.8095238,54.9433962 C69.8095238,52.7342572 71.6003848,50.9433962 73.8095238,50.9433962 Z M94.4126984,37.7358491 L101.396825,37.7358491 C103.605964,37.7358491 105.396825,39.5267101 105.396825,41.7358491 L105.396825,108.264151 C105.396825,110.47329 103.605964,112.264151 101.396825,112.264151 L94.4126984,112.264151 C92.2035594,112.264151 90.4126984,110.47329 90.4126984,108.264151 L90.4126984,41.7358491 C90.4126984,39.5267101 92.2035594,37.7358491 94.4126984,37.7358491 Z M115.015873,41.509434 L122,41.509434 C124.209139,41.509434 126,43.300295 126,45.509434 L126,112.037736 C126,114.246875 124.209139,116.037736 122,116.037736 L115.015873,116.037736 C112.806734,116.037736 111.015873,114.246875 111.015873,112.037736 L111.015873,45.509434 C111.015873,43.300295 112.806734,41.509434 115.015873,41.509434 Z" id="Rectangle-3" fill="#F8E0EC"></path>
+                                    <path d="M12,73.5849057 L18.984127,73.5849057 C21.193266,73.5849057 22.984127,75.3757667 22.984127,77.5849057 L22.984127,130.90566 C22.984127,133.114799 21.193266,134.90566 18.984127,134.90566 L12,134.90566 C9.790861,134.90566 8,133.114799 8,130.90566 L8,77.5849057 C8,75.3757667 9.790861,73.5849057 12,73.5849057 Z M32.6031746,88.6792453 L39.5873016,88.6792453 C41.7964406,88.6792453 43.5873016,90.4701063 43.5873016,92.6792453 L43.5873016,146 C43.5873016,148.209139 41.7964406,150 39.5873016,150 L32.6031746,150 C30.3940356,150 28.6031746,148.209139 28.6031746,146 L28.6031746,92.6792453 C28.6031746,90.4701063 30.3940356,88.6792453 32.6031746,88.6792453 Z M53.2063492,83.0188679 L60.1904762,83.0188679 C62.3996152,83.0188679 64.1904762,84.8097289 64.1904762,87.0188679 L64.1904762,140.339623 C64.1904762,142.548762 62.3996152,144.339623 60.1904762,144.339623 L53.2063492,144.339623 C50.9972102,144.339623 49.2063492,142.548762 49.2063492,140.339623 L49.2063492,87.0188679 C49.2063492,84.8097289 50.9972102,83.0188679 53.2063492,83.0188679 Z M73.8095238,60.3773585 L80.7936508,60.3773585 C83.0027898,60.3773585 84.7936508,62.1682195 84.7936508,64.3773585 L84.7936508,130.90566 C84.7936508,133.114799 83.0027898,134.90566 80.7936508,134.90566 L73.8095238,134.90566 C71.6003848,134.90566 69.8095238,133.114799 69.8095238,130.90566 L69.8095238,64.3773585 C69.8095238,62.1682195 71.6003848,60.3773585 73.8095238,60.3773585 Z M94.4126984,67.9245283 L101.396825,67.9245283 C103.605964,67.9245283 105.396825,69.7153893 105.396825,71.9245283 L105.396825,138.45283 C105.396825,140.661969 103.605964,142.45283 101.396825,142.45283 L94.4126984,142.45283 C92.2035594,142.45283 90.4126984,140.661969 90.4126984,138.45283 L90.4126984,71.9245283 C90.4126984,69.7153893 92.2035594,67.9245283 94.4126984,67.9245283 Z M115.015873,64.1509434 L122,64.1509434 C124.209139,64.1509434 126,65.9418044 126,68.1509434 L126,134.679245 C126,136.888384 124.209139,138.679245 122,138.679245 L115.015873,138.679245 C112.806734,138.679245 111.015873,136.888384 111.015873,134.679245 L111.015873,68.1509434 C111.015873,65.9418044 112.806734,64.1509434 115.015873,64.1509434 Z" id="Rectangle-4" fill="#D02E7D"></path>
+                                </g>
+                            </g>
+                            <g id="Pie-chart" mask="url(#mask-10)">
+                                <g transform="translate(273.000000, 212.000000)">
+                                    <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0.471153846" width="131" height="146.057692" rx="3"></rect>
+                                    <ellipse id="Oval" stroke="#F8E0EC" stroke-width="10" fill="none" cx="67.3848921" cy="73.9711538" rx="34.6870504" ry="34.6826923"></ellipse>
+                                    <path d="M37.6978417,73.9711538 L28.2733813,73.9711538 C28.2733813,52.3736339 45.7842011,34.8653846 67.3848921,34.8653846 L67.3848921,44.2884615 C50.9891869,44.2884615 37.6978417,57.5778556 37.6978417,73.9711538 Z" id="Oval" stroke="none" fill="#D02E7D" fill-rule="nonzero"></path>
+                                </g>
+                            </g>
+                            <g id="Line-chart" mask="url(#mask-10)">
+                                <g transform="translate(126.000000, 50.000000)">
+                                    <rect id="Rectangle" stroke="none" fill="#FFFFFF" fill-rule="evenodd" x="0" y="0" width="278" height="146" rx="3"></rect>
+                                    <polygon id="Path-8" stroke="none" fill="#F8E0EC" fill-rule="evenodd" points="7 73.5548873 51.4115222 80.133396 88.5544426 110.731538 138.222004 112.086153 188.436669 94.7000941 227.581981 66.9763785 271 51 271 140 7 140"></polygon>
+                                    <polyline id="Path-8" stroke="#D02E7D" stroke-width="3" fill="none" stroke-linecap="round" points="9 74.5230769 53.0750713 81.0923077 89.9366059 111.647296 139.227898 113 189.062149 95.6384615 227.910905 67.9538462 271 52"></polyline>
+                                    <path d="M7,81.0886076 L52.6643515,73.5949367 L89.2045989,102.164557 L137.286948,112 L188.436669,102.164557 L222.48985,49.2405063 L271,38" id="Path-8" stroke="#D02E7D" stroke-width="1" fill="none" stroke-linecap="round" stroke-dasharray="4,4"></path>
+                                </g>
+                            </g>
+                            <g id="Header" mask="url(#mask-10)">
+                                <g transform="translate(110.000000, 2.000000)">
+                                    <g id="Rectangle">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                    </g>
+                                    <text id="Dashboard" font-family="PTSans-CaptionBold, PT Sans Caption" font-size="12" font-weight="bold">
+                                        <tspan x="16" y="20" fill="#D02E7D">Dashboard</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                            <mask id="mask-14" fill="white">
+                                <use xlink:href="#path-13"></use>
+                            </mask>
+                            <rect stroke="#000000" stroke-width="2" x="1" y="1" width="418" height="313" rx="8"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
