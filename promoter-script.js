@@ -1,5 +1,7 @@
+import "./style.css";
+
 document.addEventListener("DOMContentLoaded", function () {
-	const container = document.querySelector(".product-details");
+const container = document.querySelector(".product-details");
 
 	// Create the "Promoter" button
 	const promoterButton = document.createElement("button");
@@ -55,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 		});
 
-		const emailForm = modal.querySelector(".email-form");
+		const emailForm = modal.querySelector(".tc-promoter-modal__form");
 
 		emailForm.addEventListener("submit", function (event) {
 			event.preventDefault();
