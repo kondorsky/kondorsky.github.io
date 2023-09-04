@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-`;const p="http://staging.targetcircle.com",m={backgroundColor:"#007bff",color:"#fff",marginTop:"16px"},f=739;document.addEventListener("DOMContentLoaded",function(){const c=document.querySelector(".product-details"),e=document.createElement("button");e.type="button",e.className="tc-btn",e.textContent="Share & Earn",Object.assign(e.style,m),c.appendChild(e),e.addEventListener("click",function(){const r=document.createElement("div");r.className="tc-promoter-modal",r.innerHTML=`
+`;const p="https://staging.targetcircle.com",m={backgroundColor:"#007bff",color:"#fff",marginTop:"16px"},f=739;document.addEventListener("DOMContentLoaded",function(){const c=document.querySelector(".product-details"),e=document.createElement("button");e.type="button",e.className="tc-btn",e.textContent="Share & Earn",Object.assign(e.style,m),c.appendChild(e),e.addEventListener("click",function(){const r=document.createElement("div");r.className="tc-promoter-modal",r.innerHTML=`
 					<div class="tc-promoter-modal__overlay"></div>
 					<div class="tc-promoter-modal__container">
 						<div class="tc-promoter-modal__content">
