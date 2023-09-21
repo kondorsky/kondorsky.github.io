@@ -43,7 +43,7 @@
 			`;const l=(d=document.querySelector("link[rel='canonical']"))==null?void 0:d.href,{message:m,success:p}=await u.createPromoter(r.email.value);t.innerHTML=`
 			<label for="tracking_code">Your Tracking Link</label>
 			<div class="form-group__row">
-				<input class="${n.INPUT}" value="${m}${p&&l?"?deeplink="+l:""}" disabled type="input" id="tc_tracking_code" name="tracking_code">
+				<input class="${n.INPUT}" value="${m}${p&&l?"&deeplink="+l:""}" disabled type="input" id="tc_tracking_code" name="tracking_code">
 				<button id="tc_copy_tracking_code" type="button" class="${n.BUTTON}">Copy</button>
 			</div>
 			`;const s=t.querySelector("#tc_copy_tracking_code");s.addEventListener("click",function(){const f=t.querySelector("#tc_tracking_code");u.copyToClipboard(f.value),s.textContent="Copied",s.style.backgroundColor="#4CAF50",setTimeout(()=>{s.textContent="Copy",s.style.backgroundColor="#007bff"},2e3)})})})});const u={copyToClipboard:function(c){const e=document.createElement("textarea");e.value=c,e.style.position="fixed",e.style.opacity=0,document.body.appendChild(e),e.select(),navigator.clipboard.writeText(e.value).then(()=>{console.info("Text copied to clipboard: ",e.value)}).catch(o=>{console.error("Failed to copy text: ",o)}),document.body.removeChild(e)},createPromoter:async function(c){try{const e=await fetch(`${v}/api/pl/pub/promoter/add`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({email:c,offerId:b})}),{error:o,trackingLink:a}=await e.json();return{message:o||a,success:!o}}catch(e){return console.error(e),{message:"Could not create tracking link",success:!1}}}};
