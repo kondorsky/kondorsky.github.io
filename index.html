@@ -14,15 +14,15 @@
     window.promoter_offer_id = 'YOUR_OFFER_ID';
 
     //Set your styles class
-    window.promoter_styles_class = {
-      BUTTON: 'tc-btn',
-      INPUT: 'tc-input',
+    window.promoter_classes = {
+      button: 'tc-btn',
+      input: 'tc-input',
     };
 
     document.addEventListener("DOMContentLoaded", function () {
+      const timestamp = new Date().getTime();
       const script = document.createElement('script');
-      script.setAttribute('src', 'https://cdn.staging.trackmytarget.com/tracking/s/promoter_entrypoint.js');
-      script.setAttribute('type', 'text/javascript');
+      script.setAttribute('src', `https://cdn.staging.trackmytarget.com/tracking/s/promoter_entrypoint.js?t=${timestamp}`);
       script.setAttribute('defer', 'true');
       document.head.appendChild(script);
     });
