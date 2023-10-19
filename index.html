@@ -22,7 +22,7 @@
     document.addEventListener("DOMContentLoaded", function () {
       const timestamp = new Date().getTime();
       const script = document.createElement('script');
-      script.setAttribute('src', `https://cdn.staging.trackmytarget.com/promoter/entrypoint.js?t=${timestamp}`);
+      script.setAttribute('src', `https://cdn.staging.trackmytarget.com/tracking/s/promoter_entrypoint.js?t=${timestamp}`);
       script.setAttribute('defer', 'true');
       document.head.appendChild(script);
     });
