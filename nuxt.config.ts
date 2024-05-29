@@ -4,7 +4,6 @@ export default defineNuxtConfig({
   extends: ["@nuxt/ui-pro"],
   modules: [
     "@nuxt/eslint",
-    "@pinia/nuxt",
     "@nuxt/fonts",
     "@nuxt/ui",
     "@vueuse/nuxt",
