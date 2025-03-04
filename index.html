@@ -243,7 +243,8 @@
   </div>
   
   <script>
-    document.cookie = "tmt_test_data=original;path=/";
+    var domain = window.location.hostname;
+    document.cookie = "tmt_test_data=original;path=/;domain=" + domain;
 
     function testCookieModification() {
       // Try to modify cookie
