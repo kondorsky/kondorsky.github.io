@@ -1,12 +1,270 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>SKIBIDI</title>
-	<script type="text/javascript" defer="true" src="https://s.staging.hellopush.io/init?id=01HTF4BT4VVAZ5ZECY4NSBD0C5"></script>
+  <title>Checkout - MyShop</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .checkout-header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #eee;
+      margin-bottom: 30px;
+    }
+    .checkout-logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #4a89dc;
+    }
+    .checkout-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 30px;
+    }
+    .checkout-section {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-size: 18px;
+      margin-top: 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+    .product-item {
+      display: flex;
+      padding: 15px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .product-image {
+      width: 80px;
+      height: 80px;
+      background-color: #eee;
+      margin-right: 15px;
+      border-radius: 4px;
+    }
+    .product-details {
+      flex-grow: 1;
+    }
+    .product-title {
+      font-weight: 600;
+      margin: 0 0 5px 0;
+    }
+    .product-price {
+      font-weight: 600;
+      color: #4a89dc;
+    }
+    .order-summary-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .order-total {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 12px;
+      background-color: #4a89dc;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .btn:hover {
+      background-color: #3a79cc;
+    }
+    .test-controls {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: rgba(0,0,0,0.1);
+      padding: 10px;
+      border-radius: 4px;
+      z-index: 1000;
+    }
+    .test-btn {
+      padding: 5px 10px;
+      margin: 0 5px;
+      background: #ddd;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-	
+  <!-- Replace SCRIPT_ID with an actual script ID -->
+  <script async src="http://localhost:6001/affiliateguard-e8cf3/us-central1/loaderJs/kSm3FNe3qfInLVDAwVRq.js"></script>
+  
+  <div class="test-controls">
+    <button class="test-btn" onclick="testWindowOpen()">Test Window Open</button>
+    <button class="test-btn" onclick="testUrlModification()">Test URL Modification</button>
+    <button class="test-btn" onclick="testCookieModification()">Test Cookie Modification</button>
+  </div>
+
+  <div class="container">
+    <div class="checkout-header">
+      <div class="checkout-logo">MyShop</div>
+      <p>Complete your purchase</p>
+    </div>
+
+    <div class="checkout-grid">
+      <div class="checkout-form">
+        <div class="checkout-section">
+          <h2 class="section-title">Shipping Information</h2>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label for="address">Shipping Address</label>
+            <input type="text" id="address" placeholder="123 Main St">
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="New York">
+          </div>
+          <div class="form-group">
+            <label for="zipcode">Zip Code</label>
+            <input type="text" id="zipcode" placeholder="10001">
+          </div>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country">
+              <option value="us">United States</option>
+              <option value="ca">Canada</option>
+              <option value="uk">United Kingdom</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="checkout-section">
+          <h2 class="section-title">Payment Method</h2>
+          <div class="form-group">
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+          </div>
+          <div class="form-group">
+            <label for="card-name">Name on Card</label>
+            <input type="text" id="card-name" placeholder="John Doe">
+          </div>
+          <div class="form-group" style="display: flex; gap: 10px;">
+            <div style="flex: 1;">
+              <label for="expiry">Expiry Date</label>
+              <input type="text" id="expiry" placeholder="MM/YY">
+            </div>
+            <div style="flex: 1;">
+              <label for="cvv">CVV</label>
+              <input type="text" id="cvv" placeholder="123">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-summary">
+        <div class="checkout-section">
+          <h2 class="section-title">Order Summary</h2>
+          <div class="product-item">
+            <div class="product-image"></div>
+            <div class="product-details">
+              <h3 class="product-title">Premium Headphones</h3>
+              <p>Color: Black</p>
+              <p class="product-price">$129.99</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <div class="product-image"></div>
+            <div class="product-details">
+              <h3 class="product-title">Wireless Charger</h3>
+              <p>15W Fast Charging</p>
+              <p class="product-price">$35.00</p>
+            </div>
+          </div>
+          <div class="order-summary-row">
+            <span>Subtotal</span>
+            <span>$164.99</span>
+          </div>
+          <div class="order-summary-row">
+            <span>Shipping</span>
+            <span>$4.99</span>
+          </div>
+          <div class="order-summary-row">
+            <span>Tax</span>
+            <span>$13.50</span>
+          </div>
+          <div class="order-summary-row order-total">
+            <span>Total</span>
+            <span>$183.48</span>
+          </div>
+          <button class="btn">Complete Purchase</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    document.cookie = "tmt_test_data=original;path=/";
+
+    function testCookieModification() {
+      // Try to modify cookie
+      document.cookie = "tmt_test_data=modified;path=/";
+    }
+
+    // Add some test code to trigger protection mechanisms
+    function testWindowOpen() {
+      
+      // Try to open a new window
+      window.open('https://example.com');
+    }
+
+    function testUrlModification() {
+      // Try to modify URL
+      try {
+        history.pushState({}, '', '/checkout?test=true');
+      } catch (e) {
+        console.log('URL modification prevented:', e);
+      }
+    }
+  </script>
 </body>
 </html>
