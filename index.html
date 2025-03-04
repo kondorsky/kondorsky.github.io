@@ -248,7 +248,7 @@
 
     function testCookieModification() {
       // Try to modify cookie
-      document.cookie = "tmt_test_data=modified;path=/";
+      document.cookie = "tmt_test_data=modified;path=/;domain=" + domain;
     }
 
     // Add some test code to trigger protection mechanisms
