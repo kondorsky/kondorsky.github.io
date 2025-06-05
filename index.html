@@ -127,7 +127,7 @@
       cursor: pointer;
     }
   </style>
-  <script async src="https://affiliateguard-e8cf3.web.app/loader.js"></script>
+  <script async src="/promoterly-script.js"></script>
 </head>
 <body>
   <!-- Replace SCRIPT_ID with an actual script ID -->
@@ -241,31 +241,5 @@
       </div>
     </div>
   </div>
-  
-  <script>
-    var domain = window.location.hostname;
-    document.cookie = "tmt_test_data=original;path=/;domain=" + domain;
-
-    function testCookieModification() {
-      // Try to modify cookie
-      document.cookie = "tmt_test_data=modified;path=/;domain=" + domain;
-    }
-
-    // Add some test code to trigger protection mechanisms
-    function testWindowOpen() {
-      
-      // Try to open a new window
-      window.open('https://example.com');
-    }
-
-    function testUrlModification() {
-      // Try to modify URL
-      try {
-        history.pushState({}, '', '/checkout?test=true');
-      } catch (e) {
-        console.log('URL modification prevented:', e);
-      }
-    }
-  </script>
 </body>
 </html>
